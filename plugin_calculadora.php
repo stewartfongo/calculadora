@@ -1,10 +1,10 @@
 <?php
 
 /**
-* Plugin Name: plugin_calculadora
-* Description: plugin de exemplo
+* Plugin Name: calculadora-plugin
+* Description: plugin de calculadora
 * Version: 1.0
-* Author: Paulo Aquino
+* Author: Laiz e Stewart
 */
 
 //principal função usada no plugin
