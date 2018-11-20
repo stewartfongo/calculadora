@@ -32,7 +32,7 @@
         <input type="button" value="1" name="btn" class="btn">
         <input type="button" value="2" name="btn" class="btn">
         <input type="button" value="3" name="btn" class="btn">
-        <input type="button" value="*" name="multiplicacao" class="btn">
+        <input type="button" value="x" name="multiplicacao" class="btn">
         <input type="button" value="=" name="igual" class="btn igual">
         <input type="button" value="0" name="btn" class="btn zero">
         <input type="button" value="." name="btn" class="btn">
