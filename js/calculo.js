@@ -5,12 +5,10 @@ $(function(){
     
     $("input[name=btn]").click(function(){
         $("#resultado").val($("#resultado").val() + $(this).val());
-//ele vai pegar o valor que esta na tela e adicionar o novo valor, a soma de textos faz com que um fique atras do outro
     })
     
     $("input[name=ce]").click(function(){
         $("#resultado").val("");
-//ele vai apagar o valor que tem no visor
     })
     
     $("input[name=c]").click(function(){

@@ -9,12 +9,13 @@ iframe {
 .container{
     position: relative;
     margin: 20px auto; /*o valor para cima e automatico para o resto*/ 
-    width: 80%;
+    width: 70%;
     height: auto;
-    padding: 10px;
-    background: #fff;
+    padding: 30px;
+    background: linear-gradient(to right, rgba(17,17,17,1) 0%, rgba(17,17,17,1) 7%, rgba(76,76,76,1) 60%, rgba(19,19,19,1) 100%);
     border: 10% solid white;
     box-shadow: 0px 4px 5px 5px rgba(0,0,0,0.16);
+    border-radius: 20px;
 }
 .Resultado{
     position: relative;
@@ -22,20 +23,22 @@ iframe {
     height: auto;
     padding: 6px;
     background-color: #A2AF77;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 #resultado {
+    width: 100%;
     background-color: #A2AF77;
+    color: rgba(0,0,0,0.7);
 }
 
 .botoes{
     margin-top: 25px;
-    width: 93%;
+    width: 96%;
     height: auto;
     padding: 10px;
-    background: #dedede;
 }
+
 .campo{
     width: 100%;
     height: 90px;
@@ -47,30 +50,42 @@ iframe {
 }   
 
 .btn{
-    margin-top: 1px;
+    margin-top: 2px;
+    padding: 5px 10px;
     width: 18%;
     height: 10%;
- /*   padding: 3%;*/
-    background-color: rgb(30,144, 255, 0.5);
+    background-color: #58595B;
+    border-right: 2px solid #464748;
+    border-bottom: 2px solid #464748;
+    border-left: none;
+    border-top: none;
     color: white;
     font-size: 150%;
-    
-    /*border: 5px solid #1c86ee;*/
+    outline: none;
 }
 .btn:hover{
     cursor: pointer;
-    background-color:#1C86fe; 
+    background-color:#464748;
 }
-/*.overlay{
-    display: none;
-    z-index:0;
-    cursor: pointer;
-}*/
+
+.c, .ce {
+     width: 20%;
+}
 
 .igual{
     width: 15.8%;
     height: 22.3%;
     position:absolute;
+    background-color: #F15A2B;
+    border-right: 2px solid #d85126;
+    border-bottom: 2px solid #d85126;
+    border-left: none;
+    border-top: none;
+}
+
+.igual:hover {
+    cursor: pointer;
+    background-color:#d85126;
 }
 .zero{
     width: 37.65%;

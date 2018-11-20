@@ -23,12 +23,12 @@
         <input type="button" value="8" name="btn" class="btn">
         <input type="button" value="9" name="btn" class="btn">
         <input type="button" value="+" name="soma" class="btn">
-        <input type="button" value="C" name="c" class="btn">
+        <input type="button" value="C" name="c" class="c btn">
         <input type="button" value="4" name="btn" class="btn">
         <input type="button" value="5" name="btn" class="btn">
         <input type="button" value="6" name="btn" class="btn">
         <input type="button" value="-" name="subtracao" class="btn">
-        <input type="button" value="CE" name="ce" class="btn">
+        <input type="button" value="CE" name="ce" class=" ce btn">
         <input type="button" value="1" name="btn" class="btn">
         <input type="button" value="2" name="btn" class="btn">
         <input type="button" value="3" name="btn" class="btn">
